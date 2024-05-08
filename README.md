@@ -17,21 +17,25 @@ KET the Apple Marketing team wants to review negative sentiments expressed on Tw
 3. What specific concerns do users raise regarding aesthetics and user interface?
 
 ## Data and Resource Used
-The dataset comes from CrowdFlower ([Data.World](https://data.world/crowdflower/brands-and-product-emotions)) Human raters rated the sentiment in over 9,000 Tweets as positive, negative, or neither.
-In this project we focused on positive and negative sentiment which has around 3,000 records. 
+The dataset utilized in this project originates from CrowdFlower (Data.World), where human raters assessed sentiment in over 9,000 tweets, categorizing them as positive, negative, or neutral. Our focus was on the positive and negative sentiment categories, which encompass approximately 3,000 records.
 
-(![image](https://github.com/ermiyas-sidama/NLP-Analysis-for-Apple-product/assets/160514617/fef9c544-dc68-46aa-9bdc-3046aa427282)
-)
+![image](https://github.com/ermiyas-sidama/NLP-Analysis-for-Apple-product/assets/160514617/fef9c544-dc68-46aa-9bdc-3046aa427282)
 
-The figure above shows that the data is Class Imbalance. As result we will augment our dataset by adding additional negative tweets. This strategy aims to provide the model with more representative examples of negative sentiments, thereby improving its ability to accurately classify negative tweets. 
+The depicted figure illustrates a class imbalance within the dataset. To address this, we employed a strategy of augmenting our dataset by incorporating additional negative tweets. This approach aims to provide the model with a more balanced representation of negative sentiments, thereby enhancing its ability to accurately classify negative tweets.
 
+Key aspects of this project include:
+- Utilization of Python 3, leveraging the Natural Language Toolkit (nltk) package among others, for text data preprocessing.
+- Integration of Tableau for data visualization purposes.
+## Data Preprocessing
+- Cleanse and preprocess the text data to enhance its quality and consistency for analysis.This involved steps such as tokenization,removing stop words and punctuation and lemmatization text data.
+- WordClound visualization with Negative sentiment on Apple product was generated to provide an intuitive representation of frequently occuring words or phrase associated with negative sentiment.
+- Associate negative sentiment with specific Apple products, features, or aspects to pinpoint areas of concern.
 
-## Methods
-
-## Analysis / Modeling
+## Modeling
 
 
 ## Conclusion
+By leveraging NLP techniques to dissect negative sentiment surrounding Apple products at the 2013 SXSW Conference, this analysis offers valuable insights essential for strategic decision-making. Through a nuanced understanding of consumer sentiment, Apple can refine its products, communication strategies, and customer interactions to foster enhanced brand loyalty and satisfaction.\
 Based on our NLP analysis of negative sentiment on Apple products during the 2013 SXSW Conference on Twitter, the following conclusions can be drawn:
 
 1. Users frequently criticized the designs and battery life of Apple products.
@@ -41,7 +45,7 @@ Based on our NLP analysis of negative sentiment on Apple products during the 201
 ## For More Information
 Please review our full analysis in jupyter notebook ([NLP Analysis for Apple product](https://github.com/ermiyas-sidama/NLP-Analysis-for-Apple-product/blob/main/README.md))\
 And also refer to our 
-- ([Presentation](https://docs.google.com/presentation/d/1ijBPPvqfAkNkCyVd-PAvYYbMsxsdxGZkPknvgijaI1o/edit#slide=id.g2da3e7edccf_0_1)) 
+- ([Presentation](https://www.canva.com/design/DAGEpfKhGSA/70EH7vs7p4lsmEqbvKAyvA/edit?utm_content=DAGEpfKhGSA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)) 
 
 ## Contributors
 ([Ermiyas Sidama](https://github.com/ermiyas-sidama))
@@ -52,7 +56,7 @@ And also refer to our
 |— README.md                                                 <- The top-level README for reviewers of this project
 |— NLP_Analysis_for_Apple_product.ipynb                      <- Interactive computing environment including analysis in Jupyter notebook
 |— .gitignore                                                <- gitignore exclude selected file execute
-|— Data                                                      <- Sourced externally 
+|— Data                                                      <- Source data
     |— judge-1377884607_tweet_product_company.csv            <- Raw data
 |_ presentation.pdf                                          <- PDF version of project presentation
 ```
