@@ -1,7 +1,9 @@
 # NLP Analysis for Apple product
 ## Introduction
 In todays digital world social media plays a vital role in collecting data .Twitter is one of the social media which  has a huge sources of consumers opinion and sentiments. Analyzing these data using Natural Language Processing(NLP) techniques offer valuable insight in to public perceptions of brands and products.This introduction outlines the process of conductingNLP analysis for apple product sentiment on Twitter.\
+
 KET the Apple Marketing team wants to review negative sentiments expressed on Twitter about Apple products during the SXSW conference.
+
 ![image](https://github.com/ermiyas-sidama/NLP-Analysis-for-Apple-product/assets/160514617/1e98365a-023e-4ebe-94c2-1d3ecf62c47b)
 
 Photo by ([Clément Delteil](https://pub.towardsai.net/unsupervised-sentiment-analysis-with-real-world-data-500-000-tweets-on-elon-musk-3f0653135558))
@@ -33,7 +35,7 @@ Key aspects of this project include:
 
 ## Modeling
 Leveraging machine learning models for sentiment analysis of tweets about Apple enables the company to gain valuable insights into customer perceptions, preferences, and opinions, facilitating informed decision-making and enhancing the overall customer experience. We now want to run a Binary Classification model that will be trying to correctly predict whether a tweet is "Positive" or "Negative.
-As a starting point, the team created a simple MultinomialNB model as a baseline model based on our domain knowledge. Then, the team created 5 additional models to improve classification performance by tuning the hyperparameters and also tries to see the addition of extra negative sentiment Tweet on apple product. The team chose accuracy score to evaluate the performance of the model.
+As a starting point, the team created a simple MultinomialNB model as a baseline model based on our domain knowledge. Then, the team created 5 additional models to improve classification performance by tuning the hyperparameters and also tries to see the addition of extra negative sentiment Tweet on apple product. The team chose accuracy score to evaluate the performance of the model.\
 Based on our modeling process, the best model was a Tuned Logistic Regression model with added Tweet and has an accuracy of 87%.
 ```
 # Define the pipeline with TF-IDF vectorizer and Logistic Regression classifier
