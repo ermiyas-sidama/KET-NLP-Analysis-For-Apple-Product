@@ -12,16 +12,28 @@ This project tries to investigate and analyze negative sentiment sourrounding Ap
 
 ## Business Problem
 KET the Apple Marketing team wants to review negative sentiments expressed on Twitter about Apple products during the SXSW conference.
-1. Eximine predominant themes and factors that trigger negative sentiment towards Apple products, discerning recurring patterns and uncovering the underlying reasons behind them.
-2. Investigate the Tweeter sentiment surrounding Apple products as voiced during the 2013 SXSW Conference, with a specific focus on identifying and analyzing negative sentiment expressions.
+1. What aspects of Apple products do users frequently critique?
+2. What is a common point of frustration for consumers regarding the performance of Apple devices?
+3. What specific concerns do users raise regarding aesthetics and user interface?
 
 ## Data and Resource Used
+The dataset comes from CrowdFlower ([Data.World](https://data.world/crowdflower/brands-and-product-emotions)) Human raters rated the sentiment in over 9,000 Tweets as positive, negative, or neither.
+In this project we focused on positive and negative sentiment. 
+![image](https://github.com/ermiyas-sidama/NLP-Analysis-for-Apple-product/assets/160514617/b294e3fb-e00d-46cf-b376-e9fc684769d9)
+The figure above shows that the data is Class Imbalance. As result we will augment our dataset by adding additional negative tweets. This strategy aims to provide the model with more representative examples of negative sentiments, thereby improving its ability to accurately classify negative tweets. 
+
 
 ## Methods
 
-## Data Analysis Result
+## Analysis / Modeling
 
 
+## Conclusion
+Based on our NLP analysis of negative sentiment on Apple products during the 2013 SXSW Conference on Twitter, the following conclusions can be drawn:
+
+1. Users frequently criticized the designs and battery life of Apple products.
+2. A common source of frustration among consumers regarding the performance of Apple devices was related to apps and battery life.
+3. The primary concerns raised by users regarding aesthetics and user interface were related to designs and apps.
 
 ## For More Information
 Please review our full analysis in jupyter notebook ([NLP Analysis for Apple product](https://github.com/ermiyas-sidama/NLP-Analysis-for-Apple-product/blob/main/README.md))\
