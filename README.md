@@ -8,8 +8,7 @@ Photo by ([Clément Delteil](https://pub.towardsai.net/unsupervised-sentiment-an
 
 
 ## Project Overview
-This project tries to investigate and analyze negative sentiment sourrounding Apple products as expressed during the 2013 South by SouthWest(SXSW) Conference using Natural language Processing techniques.
-Understanding negative sentiment is very important for companies like Apple to refine product strategies and enhance customer satisfaction.So this analysis aims to find insights crucial for product  refinment and strategic decision making.
+This project tries to investigate and analyze negative sentiment sourrounding Apple products as expressed during the 2013 South by SouthWest(SXSW) Conference using Natural language Processing techniques.Understanding negative sentiment is very important for companies like Apple to refine product strategies and enhance customer satisfaction.So this analysis aims to find insights crucial for product  refinment and strategic decision making.
 
 ## Business Problem
 KET the Apple Marketing team wants to review negative sentiments expressed on Twitter about Apple products during the SXSW conference.
