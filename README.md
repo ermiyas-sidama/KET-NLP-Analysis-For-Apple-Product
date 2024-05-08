@@ -32,10 +32,27 @@ Key aspects of this project include:
 - Associate negative sentiment with specific Apple products, features, or aspects to pinpoint areas of concern.
 
 ## Modeling
+Leveraging machine learning models for sentiment analysis of tweets about Apple enables the company to gain valuable insights into customer perceptions, preferences, and opinions, facilitating informed decision-making and enhancing the overall customer experience. We now want to run a Binary Classification model that will be trying to correctly predict whether a tweet is "Positive" or "Negative.
+As a starting point, the team created a simple MultinomialNB model as a baseline model based on our domain knowledge. Then, the team created 5 additional models to improve classification performance by tuning the hyperparameters and also tries to see the addition of extra negative sentiment Tweet on apple product. The team chose accuracy score to evaluate the performance of the model.
+Based on our modeling process, the best model was a Tuned Logistic Regression model with added Tweet and has an accuracy of 87%.
+```
+# Define the pipeline with TF-IDF vectorizer and Logistic Regression classifier
+pipeline_logreg_best2 = Pipeline([
+    ('tfidf', TfidfVectorizer(stop_words=stopwords_list)),  # Vectorize the text data using TF-IDF
+    ('logreg_classifier', LogisticRegression(C=1, class_weight='balanced', max_iter=100, solver='liblinear'))  # Logistic Regression classifier with best parameters
+])
+
+# Train the pipeline
+pipeline_logreg_best2.fit(X_train2, y_train2)
+
+# Evaluate the model
+y_pred_logreg_best2 = pipeline_logreg_best2.predict(X_test2)
+print(classification_report(y_test2, y_pred_logreg_best2))
+```
 
 
 ## Conclusion
-By leveraging NLP techniques to dissect negative sentiment surrounding Apple products at the 2013 SXSW Conference, this analysis offers valuable insights essential for strategic decision-making. Through a nuanced understanding of consumer sentiment, Apple can refine its products, communication strategies, and customer interactions to foster enhanced brand loyalty and satisfaction.\
+By implementing NLP techniques to dissect negative sentiment surrounding Apple products at the 2013 SXSW Conference, this analysis offers valuable insights essential for strategic decision-making. Through a nuanced understanding of consumer sentiment, Apple can refine its products, communication strategies, and customer interactions to foster enhanced brand loyalty and satisfaction.\
 Based on our NLP analysis of negative sentiment on Apple products during the 2013 SXSW Conference on Twitter, the following conclusions can be drawn:
 
 1. Users frequently criticized the designs and battery life of Apple products.
