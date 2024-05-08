@@ -18,8 +18,11 @@ KET the Apple Marketing team wants to review negative sentiments expressed on Tw
 
 ## Data and Resource Used
 The dataset comes from CrowdFlower ([Data.World](https://data.world/crowdflower/brands-and-product-emotions)) Human raters rated the sentiment in over 9,000 Tweets as positive, negative, or neither.
-In this project we focused on positive and negative sentiment. 
-![image](https://github.com/ermiyas-sidama/NLP-Analysis-for-Apple-product/assets/160514617/b294e3fb-e00d-46cf-b376-e9fc684769d9)
+In this project we focused on positive and negative sentiment which has around 3,000 records. 
+
+(![image](https://github.com/ermiyas-sidama/NLP-Analysis-for-Apple-product/assets/160514617/fef9c544-dc68-46aa-9bdc-3046aa427282)
+)
+
 The figure above shows that the data is Class Imbalance. As result we will augment our dataset by adding additional negative tweets. This strategy aims to provide the model with more representative examples of negative sentiments, thereby improving its ability to accurately classify negative tweets. 
 
 
