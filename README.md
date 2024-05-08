@@ -1,7 +1,6 @@
 # NLP Analysis for Apple product
 ## Introduction
-In todays digital world social media plays a vital role in collecting data .Twitter is one of the social media which  has a huge sources of consumers opinion and sentiments. 
-Analyzing these data using Natural Language Processing(NLP) techniques offer valuable insight in to public perceptions of brands and products.This introduction outlines the process of conductingNLP analysis for apple product sentiment on Twitter.\
+In todays digital world social media plays a vital role in collecting data .Twitter is one of the social media which  has a huge sources of consumers opinion and sentiments. Analyzing these data using Natural Language Processing(NLP) techniques offer valuable insight in to public perceptions of brands and products.This introduction outlines the process of conductingNLP analysis for apple product sentiment on Twitter.\
 KET the Apple Marketing team wants to review negative sentiments expressed on Twitter about Apple products during the SXSW conference.
 ![image](https://github.com/ermiyas-sidama/NLP-Analysis-for-Apple-product/assets/160514617/1e98365a-023e-4ebe-94c2-1d3ecf62c47b)
 
