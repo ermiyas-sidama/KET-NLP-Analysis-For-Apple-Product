@@ -1,4 +1,4 @@
-# NLP Analysis for Apple product
+# KET NLP Analysis for Apple product
 ## Introduction
 In todays digital world social media plays a vital role in collecting data .Twitter is one of the social media which  has a huge sources of consumers opinion and sentiments. Analyzing these data using Natural Language Processing(NLP) techniques offer valuable insight in to public perceptions of brands and products.This introduction outlines the process of conductingNLP analysis for apple product sentiment on Twitter.
 
