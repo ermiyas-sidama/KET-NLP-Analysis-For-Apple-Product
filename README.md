@@ -80,10 +80,13 @@ And also refer to our
 
 ```
 |— README.md                                                 <- The top-level README for reviewers of this project
-|— KET-NLP-Analysis-for-Apple-product.ipynb                      <- Interactive computing environment including analysis in Jupyter notebook
+|— KET-NLP-Analysis-for-Apple-product.ipynb                  <- Interactive computing environment including analysis in Jupyter notebook
+|— KET-NLP-Analysis-for-Apple-product-Repo.pdf               <- PDF version of Repo
+|_ KET-NLP-Analysis-for-Apple-product-presentation.pdf       <- PDF version of project presentation                                               |— KET-NLP-Analysis-for-Apple-product-JupyterNotebook.pdf    <- PDF version of Jupyter Notebook                                                  
 |— .gitignore                                                <- gitignore exclude selected file execute
 |— Data                                                      <- Source data
     |— judge-1377884607_tweet_product_company.csv            <- Raw data
-|_ presentation.pdf                                          <- PDF version of project presentation
+
 ```
+       
 
