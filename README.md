@@ -79,7 +79,7 @@ And also refer to our
 
 ```
 |— README.md                                                 <- The top-level README for reviewers of this project
-|— NLP_Analysis_for_Apple_product.ipynb                      <- Interactive computing environment including analysis in Jupyter notebook
+|— KET-NLP-Analysis-for-Apple-product.ipynb                      <- Interactive computing environment including analysis in Jupyter notebook
 |— .gitignore                                                <- gitignore exclude selected file execute
 |— Data                                                      <- Source data
     |— judge-1377884607_tweet_product_company.csv            <- Raw data
