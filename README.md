@@ -66,7 +66,7 @@ Based on our NLP analysis of negative sentiment on Apple products during the 201
 3. The primary concerns raised by users regarding aesthetics and user interface were related to designs and apps.
 ## For More Information
 
-Please review our full analysis in jupyter notebook ([NLP Analysis for Apple product](https://github.com/ermiyas-sidama/NLP-Analysis-for-Apple-product/blob/main/README.md))\
+Please review our full analysis in jupyter notebook ([NLP Analysis for Apple product](https://github.com/ermiyas-sidama/KET-NLP-Analysis-For-Apple-Product/blob/main/KET-NLP-Analysis-For-Apple-Product.ipynb))\
 And also refer to our 
 - ([Presentation](https://www.canva.com/design/DAGEpfKhGSA/70EH7vs7p4lsmEqbvKAyvA/edit?utm_content=DAGEpfKhGSA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)) 
 
