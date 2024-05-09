@@ -1,1 +1,1 @@
-# NLP-Analysis-for-Apple-and-Google-product
+# NLP Analysis for Apple product
